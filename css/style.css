@@ -1,0 +1,106 @@
+*{ margin: 0 ; padding: 0px ; font-family: 'Raleway', sans-serif; }
+
+body{
+	width : 100%;
+	height:  100vh;
+	background-image: linear-gradient(to right, black 75%, #A74AC7);
+
+}
+
+a:link{
+  color: lightpink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: lightpink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: lightcyan;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active {
+  color:black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+h1{
+	color: white;
+}
+
+.navsection{
+	padding: 4px;
+	border-bottom: 2px solid black;
+	width: 100%; background-image: linear-gradient(to right, #151B54, #A74AC7);
+	display: flex; justify-content: space-around;
+	
+}
+
+.logo{
+	width: 30%;
+	border-radius: 7px;
+	color: #fff;
+	background-image: linear-gradient(to left, #151B54, #A74AC7);
+	padding-left: 100px;
+	box-sizing: border-box;
+}
+
+nav{
+	width: 30%;
+	padding: 5px;
+	padding-right: 5px;
+	display:flex;
+	justify-content: space-around;
+}
+
+form {
+  background-color: #151B54 ; 
+  opacity: 0.7;
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  outline:;
+}
+
+input {
+  all: unset;
+  font: 16px system-ui;
+  color: #fff;
+  height: 100%;
+  width: 100%;
+  padding: 6px 10px;
+  outline: none;
+}
+
+.simg{
+	width: 17px;
+	height: 17px;
+	padding-right: 10px;
+}
+.bgimage{
+	opacity: 0.2;
+	width: 100%;
+	height: 100vh;
+	position: absolute;
+	display: flex;
+	justify-content: space-around;
+
+}
+
+p{
+	padding-left: 25px;
+	padding-top: 25px;
+	color:#fff;
+	background-image: linear-gradient no-repeat(to right, black 75%, grey);
+	border-radius: 7px;
+	border-color: white;
+	box-sizing: border-box;
+}
